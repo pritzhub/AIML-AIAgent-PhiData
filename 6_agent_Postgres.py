@@ -10,14 +10,14 @@ load_dotenv()
 postgres_tools = PostgresTools(
     host="localhost",
     port=5432,
-    db_name="HistorianDB",
+    db_name="dbName",
     user="postgres", 
-    password="First#1234",
+    password="dbPassword",
 )
 
-receiver_email = "pritpal.khanuja@gmail.com"
-sender_email = "pritpal.khanuja@gmail.com"
-sender_name = "Pritpal Khanuja"
+receiver_email = "xxx@gmail.com"
+sender_email = "xxx@gmail.com"
+sender_name = "xxx yyy"
 sender_passkey = "<sender_passkey>"
 
 # Create an agent with the PostgresTools
