@@ -1,0 +1,8 @@
+pip install phidata
+pip install dotenv
+pip install -U yfinance
+pip install -U duckduckgo-search
+pip install fastapi
+pip install python-multipart
+pip install uvicorn
+pip install -U psycopg2
